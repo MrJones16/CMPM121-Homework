@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 22000.978; Version 2009; 64bit' Language: 'en' Physical Memory: 16300 MB
+OS: 'Windows 10 Pro; OS build 19044.2130; Version 2009; 64bit' Language: 'en' Physical Memory: 32702 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Peyton/Documents/GitHub/CMPM121-Homework/CMPM121
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53820
+54048
 Successfully changed project path to: C:/Users/Peyton/Documents/GitHub/CMPM121-Homework/CMPM121
 C:/Users/Peyton/Documents/GitHub/CMPM121-Homework/CMPM121
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 236.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -27,50 +27,186 @@ Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
     Vendor:   
-    VRAM:     8150 MB
-    Driver:   27.20.100.8681
+    VRAM:     8010 MB
+    Driver:   31.0.15.1748
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.521365 seconds.
+Registered in 0.001605 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.966 seconds
+- Completed reload, in  0.921 seconds
 Domain Reload Profiling:
-	ReloadAssembly (13967ms)
-		BeginReloadAssembly (10025ms)
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1956ms)
-			LoadAssemblies (10020ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (358ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1387ms)
+			SetupTypeCache (124ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (133ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 2.491555 seconds.
+Registered in 0.003594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Domain Reload Profiling:
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1639 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2085.
+Total: 2.420900 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.129400 ms  DeleteObjects: 0.056600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Props/17197_Buchner_flask_v1.obj
+  artifactKey: Guid(35f383a096d4a384d99fbb5c5b015f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/17197_Buchner_flask_v1.obj using Guid(35f383a096d4a384d99fbb5c5b015f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3366d2df32e051174c2ac819ecdcad3') in 0.146926 seconds 
+  Import took 0.149175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Props/17200_Round-bottom_flask_v1.obj
+  artifactKey: Guid(aa8c62fb3ce4a634185fba5295a91144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/17200_Round-bottom_flask_v1.obj using Guid(aa8c62fb3ce4a634185fba5295a91144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a11318e77a88fd37ed8f64e241a0a') in 0.020654 seconds 
+  Import took 0.022906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Props/FREE GatlingGun/Gatling Gun Test/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2d2e4543e28009f449002d817706e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FREE GatlingGun/Gatling Gun Test/Lightmap-0_comp_dir.png using Guid(2d2e4543e28009f449002d817706e3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1197875d974ec833f0135e3db05cfcb') in 0.018756 seconds 
+  Import took 0.020938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Props/eb_metal_shelf_01.fbx
+  artifactKey: Guid(0965b387f2e32dd4a8d142e046c482b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/eb_metal_shelf_01.fbx using Guid(0965b387f2e32dd4a8d142e046c482b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f21f7b59247579ad9dfb576ce18e81') in 0.018593 seconds 
+  Import took 0.020806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Props/FREE GatlingGun/Gatling Gun Test/ReflectionProbe-0.exr
+  artifactKey: Guid(b2c493a1d223ad346bd33626e284289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FREE GatlingGun/Gatling Gun Test/ReflectionProbe-0.exr using Guid(b2c493a1d223ad346bd33626e284289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e5448d9fb8373bc3297eb9b36329c6') in 0.020662 seconds 
+  Import took 0.022943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Props/17198_Fernbach_flask_v1.obj
+  artifactKey: Guid(c93f6511815a01b40bec005769c840fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/17198_Fernbach_flask_v1.obj using Guid(c93f6511815a01b40bec005769c840fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d845016b8e4d6a35f8316b90c11c24d') in 0.019392 seconds 
+  Import took 0.021593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Props/FREE GatlingGun/Gatling Gun Test/Lightmap-0_comp_light.exr
+  artifactKey: Guid(0c93e06f5d4933d4c9b123d9c7fe0a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FREE GatlingGun/Gatling Gun Test/Lightmap-0_comp_light.exr using Guid(0c93e06f5d4933d4c9b123d9c7fe0a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78426a7e3397914a58767b777260a25c') in 0.012396 seconds 
+  Import took 0.014659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Props/FREE GatlingGun/Gatling Gun Test/ReflectionProbe-1.exr
+  artifactKey: Guid(1743ad133ffe4ad4abfa1c5ac4505461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FREE GatlingGun/Gatling Gun Test/ReflectionProbe-1.exr using Guid(1743ad133ffe4ad4abfa1c5ac4505461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faefb4c3c331dfe120a8f6a873093d98') in 0.012163 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Props/17201_Straus_flask_v1_NEW.obj
+  artifactKey: Guid(b00937096e3ef1849ac3754af6e2f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/17201_Straus_flask_v1_NEW.obj using Guid(b00937096e3ef1849ac3754af6e2f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6383bc0fb0e0d452d54c795db1f3067e') in 0.020451 seconds 
+  Import took 0.022644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Props/FREE GatlingGun/Gatling Gun Test/LightingData.asset
+  artifactKey: Guid(0bd18560e04168f4f92c6d3b5f07c83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/FREE GatlingGun/Gatling Gun Test/LightingData.asset using Guid(0bd18560e04168f4f92c6d3b5f07c83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data.  Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+ -> (artifact id: '422afe9cacef56a0583d5565e330e758') in 0.006771 seconds 
+  Import took 0.008844 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
