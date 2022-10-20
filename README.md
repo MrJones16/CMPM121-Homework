@@ -20,6 +20,7 @@ from the sci-fi barrels pack: (https://assetstore.unity.com/packages/3d/environm
 - a few plates
 - a large triple barrel
 
+- Gatling gun (https://assetstore.unity.com/packages/3d/props/weapons/free-sci-fi-gatling-gun-tower-defense-134222)
 
 - fernback flask: https://free3d.com/3d-model/fernbach-flask-v1--457412.html
 - roundbottom flask: https://free3d.com/3d-model/roundbottom-flask-v1--681716.html
