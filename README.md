@@ -33,3 +33,7 @@ from the sci-fi barrels pack: (https://assetstore.unity.com/packages/3d/environm
 - composition notebook: https://free3d.com/3d-model/composition-notebook-v1--943503.html
 - safety glasses: https://free3d.com/3d-model/safety-glasses-v1--632930.html
 - Keycard & Keycard Reader: https://free3d.com/3d-model/sci-fi-door-and-key-card-286675.html
+
+NEW STUFF:
+
+- Flood light and generator: https://assetstore.unity.com/packages/3d/props/electronics/lighting-generator-28173

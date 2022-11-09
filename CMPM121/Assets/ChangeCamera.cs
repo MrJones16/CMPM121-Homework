@@ -10,6 +10,8 @@ public class ChangeCamera : MonoBehaviour
    // create frame and button variables
    private VisualElement frame;
    private Button button;
+   private Button lightbutton;
+   public Light pointlight;
 
    // This function is called when the object becomes enabled and active.
    void OnEnable()
@@ -21,8 +23,10 @@ public class ChangeCamera : MonoBehaviour
        frame = rootVisualElement.Q<VisualElement>("Frame");
        // get the button, which is nested in the frame
        button = frame.Q<Button>("Button");
+       lightbutton = frame.Q<Button>("LightButton");
        // create event listener that calls ChangeCamera() when pressed
        button.RegisterCallback<ClickEvent>(ev => ChangeCameraFunc());
+       lightbutton.RegisterCallback<ClickEvent>(ev => toggleLight());
    }
    int click = 0;
     private void ChangeCameraFunc(){
@@ -38,5 +42,8 @@ public class ChangeCamera : MonoBehaviour
         Cameras.ForEach(cam => cam.enabled = false);
         // enable the selected camera
         Cameras[n].enabled = true;
+    }
+    private void toggleLight(){
+        if (pointlight.enabled) pointlight.enabled = false; else pointlight.enabled = true;
     }
 }
